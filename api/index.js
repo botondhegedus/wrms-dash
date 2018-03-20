@@ -132,6 +132,8 @@ setup('get', '/deployments', require('./lib/get_deployments'));
 
 setup('get', '/users', require('./lib/get_users'));
 
+setup('get', '/diskusage', require('./lib/get_diskusage'));
+
 setup('get', '/storage', require('./lib/get_storage'));
 
 setup('get', '/availability', require('./lib/get_availability'));
